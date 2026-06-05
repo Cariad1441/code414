@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Literata:wght@300;400;500&family=Manufacturing+Consent&family=MedievalSharp&display=swap');
+
+
+.akocrono_main{
+    width: 700px;
+    background-image: url("https://i.imgur.com/Kg4T2sc.png");
+    background-size: cover;
+    counter-reset: step;
+}
+.akocrono_header{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 33px;
+}
+.akocrono_shield{
+    width: 200px;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+}
+.akocrono_hilt{
+    height: 100px;
+    background-image: url(https://images2.imgbox.com/87/cc/qOfwtCo1_o.png);
+    border-bottom: solid 1px var(--bordaux-velvet);
+}
+.akocrono_blade{
+    height: 50px;
+    background-image: url(https://images2.imgbox.com/5f/87/0xAnlBMy_o.png);
+    border-top: solid 1px var(--bordaux-velvet);
+}
+.akocrono_hilt,
+.akocrono_blade{
+    width: 400px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.akocrono_titletext{
+    font-family: var(--fontitle);
+    color: var(--bordaux-velvet);
+    font-size: 41pt;
+    text-align: center;
+    text-transform: uppercase;
+}
+.akocrono_crono {
+    padding: 10px 60px;
+    display: flex;
+    flex-flow: column;
+    gap: 33px;
+}
+.akocrono_chap {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  counter-increment: step;
+}
+.akocrono_chap:nth-child(even) {
+  flex-direction: row-reverse;
+}
+.akocrono_number {
+  width: 150px;
+  height: 150px;
+  min-width: 150px;
+  background: #5a0f0f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 72pt;
+  font-weight: bold;
+  color: transparent;
+  -webkit-text-stroke: 2px #d6bfa3;
+  font-family: 'Times New Roman', serif;
+}
+.akocrono_number::after {
+  content: counter(step, upper-roman);
+}
+.akocrono_chap:nth-child(odd) .akocrono_number {
+  margin-right: 10px;
+}
+.akocrono_chap:nth-child(even) .akocrono_number {
+  margin-left: 10px;
+}
+.akocrono_content {
+  flex: 1;
+    text-align: left;
+}
+.akocrono_chap:nth-child(even) .akocrono_content {
+  text-align: right;
+}
+.akocrono_title {
+  font-size: 24px;
+  font-family: var(--fontitle);
+  color: var(--bordaux-velvet);
+  letter-spacing: 1px;
+  margin: 5px 0px;
+  font-weight: 300;
+}
+.akocrono_meta {
+  font-size: 12px;
+  font-family: var(--fontbody);
+  letter-spacing: 1.5px;
+  color: var(--dull-amber);
+  margin-bottom: 10px;
+}
+.akocrono_summary {
+  max-height: 90px;
+  overflow-y: auto;
+  font-size: 12px;
+  font-family: var(--fontbody);
+  color: var(--bordaux-velvet);
+  padding-right: 8px;
+  text-align: justify;
+}
+.akocrono_summary::-webkit-scrollbar {
+    width: 8px;
+    border: solid 1px var(--dull-amber);
+}
+.akocrono_summary::-webkit-track {
+    width: 10px;
+    background-color:rgb(255, 255, 255, 0);
+}
+.akocrono_summary::-webkit-scrollbar-thumb {
+    border-radius: 1px;
+    background-color: var(--dull-amber);
+    border: hidden 1px rgb(255, 255, 255);
+}
+.akotsk_separador{
+    padding: 50px;
+    height: 50px;
+    background-image: url(https://images2.imgbox.com/ad/19/lyWtleMh_o.png);
+    background-repeat: no-repeat;
+    background-size: contain; 
+    background-position: center;
+}
+.akotsk_main_data{
+    padding: 20px;
+    font-family: var(--fontitle);
+    font-size: 9pt;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+    color: var(--bordaux-velvet)
+}
+.akotsk_main_data span {
+  margin-left: 10px;
+}
+.akocredits{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 8pt;
+}
+.akocredits a{
+    text-decoration: none;
+    color: var(--dull-amber);
+}

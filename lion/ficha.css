@@ -1,0 +1,235 @@
+.lioncard{
+    width:500px;
+    height:720px;
+    background-image:var(--lion_imgbackground);
+    background-size: cover;
+    display: flex;
+    border-radius: 20px;
+    outline: 3px solid var(--lion_blue3);
+    outline-offset: -17px;
+    padding-left: 20px;
+    padding-right: 30px;
+  }
+  
+  .liontitle {
+    display: flex;
+    align-items: center;
+    writing-mode: sideways-lr;
+    padding: 10px 0;
+    flex: 0 0 80px;
+    font-family: var(--lion_fonttitle);
+    font-style: italic;
+    font-size: 80px;
+    color:var(--lion_purewhite);
+    border-radius:60px;
+    background: linear-gradient(to bottom, transparent, var(--lion_blue2));
+    margin:20px 15px;
+    height: 84%;
+    width: 105px;
+  }
+  
+  .liontitle .lionname > t, .liontitle > span{
+   color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--lion_gold);
+  }
+  
+  .lioncover{
+    margin: 30px 15px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: var(--lion_imgcover);
+    background-size: cover;
+    border-radius: 27px;
+    height: 77%;
+    position: relative;
+    top: 60px;
+  }
+  
+  .lionicon{
+    font-weight: bold;
+    font-size: 70px;
+    color: ver(--lion_gold);
+    padding: 10px;
+    text-align: center;
+    writing-mode:initial;
+  }
+  
+  .lionbutton{
+    background-color:var(--lion_blue1);
+    width:35px;
+    height:35px;
+    font-size:30px;
+    color:var(--lion_gold);
+    border-radius:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    bottom: 20px;
+    left: 50%;
+    padding-left:2px;
+    transform: translateX(-50%);
+    z-index:99;
+  }
+  
+  .lioncard input{
+    display: none;
+  }
+  
+  .lioncard input#lionNOMBREPJ:checked ~ .lioncover .liondata{
+    opacity:1;
+    transform: rotateY(180deg);
+  }
+  
+  .lioncard input#lionNOMBREPJ:checked ~ .lioncover .lionbutton {
+    padding-left: 0px;
+    padding-right:2px;
+  }
+
+
+  .lioncover .lionbutton i{
+    margin-left: 6px;
+  }
+  
+  .lioncover .lionbutton .icon-open {
+    display: none;
+  }
+  
+  .lioncard input#lionNOMBREPJ:checked ~ .lioncover .lionbutton .icon-closed {
+    display: none;
+  }
+  
+  .lioncard input#lionNOMBREPJ:checked ~ .lioncover .lionbutton .icon-open {
+    display: inline;
+  }
+  
+  .liondata {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--lion_blue2);
+    border-radius: 27px;
+    opacity: 0;
+    transform: rotateY(0deg);
+    transition: transform 0.8s, opacity 0.3s;
+    z-index: 1;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .liondata i {
+    position: absolute;
+    left: -100px;
+    bottom: -100px;
+    font-size: 350px;
+    color: var(--lion_blue4);
+    z-index: -1;
+  }
+  
+  .lioninfo{
+    overflow:auto;
+    transform: rotateY(-180deg);
+    color:var(--lion_texto);
+    margin: 0 20px 30px 10px;
+    font-family:var(--lion_fontinfo);
+    height: 85%;
+    text-align:justify;
+    padding-right: 2px;
+  }
+  
+  .lioninfo_titulo{
+    display: block;
+    font-family: var(--lion_fonttitle);
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--lion_blue3);
+    font-size: 41px;
+    font-style: italic;
+    text-align:center;
+    margin-top:10px;
+    margin-bottom:5px;
+  }
+  
+  .lion_credits{
+    width: 540px;
+    display: flex;
+    gap: 5px;
+    color: var(--lion_texto);
+    justify-content: end;
+    align-items: center;
+    font-family: "Montserrat";
+    padding: 8px 5px;
+  }
+  
+  .lion_text_credits {
+    font-size: 7pt;
+    text-transform: uppercase;
+  }
+
+
+  .lion_text_credits > a{
+    color: var(--lion_gold);
+  }
+  
+  .lionicon,
+  .lionname,
+  .lionquote {
+    display: block;
+  }
+  
+  .lionquote {
+    display: none;
+    font-family: var(--lion_fontinfo);
+    font-style: italic;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: var(--lion_purewhite);
+  }
+  
+  .lionquote-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    height: 375px;
+    margin-bottom: 50px;
+  }
+  
+  .lionquote t {
+    font-family: var(--lion_fonttitle);
+    font-size: 90px;
+    font-style: normal;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--lion_gold);
+    line-height:1;
+  }
+  
+  .lionquote-text {
+    font-size: 16px;
+    color: var(--lion_purewhite);
+    font-style: italic;
+    text-transform: uppercase;
+  }
+  
+  .lioncard input#lionNOMBREPJ:checked ~ .liontitle .lionicon,
+  .lioncard input#lionNOMBREPJ:checked ~ .liontitle .lionname {
+    display: none;
+  }
+  
+  .lioncard input#lionNOMBREPJ:checked ~ .liontitle .lionquote {
+    display: block;
+  }
+  
+  .lioncard input#lionNOMBREPJ:checked ~ .liontitle {
+    background: transparent;
+  }
