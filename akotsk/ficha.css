@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Literata:wght@300;400;500&family=Manufacturing+Consent&family=MedievalSharp&display=swap');
+
+.akoficha a{
+text-decoration: none;
+}
+.akoficha_main{
+width: 700px;
+background-image: url("https://images2.imgbox.com/cf/f8/69p6zwBR_o.png");
+background-size: cover;
+}
+.akotsk_separador{
+margin: 33px;
+padding: 20px;
+height: 1px;
+background-image: url("https://images2.imgbox.com/ad/19/lyWtleMh_o.png");
+background-repeat: no-repeat;
+background-size: contain; 
+background-position: center;
+}
+.akochar_intro{
+height: 1180px;
+background-image: url("https://images2.imgbox.com/6e/b3/eDjtnxRw_o.png");
+}
+.akochar_name{
+display: flex;
+padding: 165px 50px 50px 50px;
+justify-content: flex-start;
+color: var(--bordaux-velvet);
+}
+.akochar_img{
+margin-top: 5px;
+margin-left: 55px;
+margin-right: 65px;
+width: 130px;
+height: 180px;
+mask-image: url("https://i.imgur.com/Sk68OVW.png");
+mask-repeat: no-repeat;
+mask-size: contain;
+mask-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+.akochar_title{
+width: 350px;
+display: flex;
+flex-flow: column;
+font-family: var(--fontitle);
+text-align: left; align-self: center;
+}
+.akoname{
+font-size: 33px;
+}
+.akohouse{
+color: var(--bordaux-velvet);
+font-size: 44pt;
+text-transform: uppercase;
+}
+.akochar_title span{
+    margin-bottom: 24px;
+}
+.akoapodo{
+color: var(--dull-amber);
+font-size: 10pt;
+text-transform: uppercase;
+letter-spacing: 5px;
+}
+.akochar_description{
+height: 500px;
+margin: 20px 50px 50px 75px;
+font-family: var(--fontbody);
+font-size: 10pt;
+font-weight: 300;
+text-align: justify;
+padding: 20px 20px 50px 70px;
+overflow-y: auto;
+color: var(--bordaux-velvet);
+}
+.akochar_description::first-letter{
+float: left;
+padding: 33px;
+margin-right: 20px;
+font-size: 55pt;
+font-family: var(--fontitle);
+border: 1pt solid var(--dull-amber);
+}
+.akochar_description::-webkit-scrollbar {
+width: 8px;
+border: solid 1px var(--dull-amber);
+}
+.akochar_description::-webkit-track {
+width: 10px;
+background-color:rgb(255, 255, 255, 0);
+}
+.akochar_description::-webkit-scrollbar-thumb {
+border-radius: 1px;
+background-color: var(--dull-amber);
+border: hidden 1px rgb(255, 255, 255);
+}
+.akochar_description::-webkit-scrollbar-track{
+border-radius: 0px;
+background: #f9f9f900;
+}
+
+.akoficha_separador-knight{
+height: 80px;
+width: 300px;
+background-image: url("https://images2.imgbox.com/cc/70/hzWPrBHO_o.png");
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center;
+border-bottom: solid 1px var(--bordaux-velvet);
+}
+.akoficha_datos{
+text-align: center;
+padding: 20px 100px;
+line-height: 1;
+}
+.akodato{
+display: flex;
+flex-flow: column;
+gap: 10px;
+padding: 10px;
+}
+.akodato_section{
+font-family: var(--fontbody);
+font-size: 8pt;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: var(--dull-amber);
+}
+.akodato_data{
+font-family: var(--fontitle);
+font-size: 16pt;
+text-transform: uppercase;
+color: var(--bordaux-velvet);
+}
+.akoficha_separador-blade{
+height: 40px;
+width: 300px;
+background-image: url("https://images2.imgbox.com/5f/87/0xAnlBMy_o.png");
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center;
+border-top: solid 1px var(--bordaux-velvet);
+}
+.akoficha_relaciones{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-content: center;
+align-items: stretch;
+gap: 20px 10px;
+padding: 20px 50px;
+}
+.akoficha_relacion{
+display: flex;
+flex-flow: column;
+width: 180px;
+}
+.akoknight_chborder{
+position: relative;
+width: 180px;
+height: 200px;
+background-image: url("https://images2.imgbox.com/8e/af/nCtXUfDA_o.png");
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center;
+z-index: 2;
+}
+.akoknight_character{
+position: relative;
+margin-top: -200px;
+width: 180px;
+height: 200px;
+mask-image: url("https://i.imgur.com/5P6AgI2.png");
+mask-repeat: no-repeat;
+mask-position: center;
+mask-size: contain;
+background-repeat: no-repeat;
+background-size: cover; background-position: center;
+z-index: 1;
+}
+.akoknight_title{
+display: flex;
+flex-flow: column;
+gap: 10px;
+padding: 10px;
+font-family: var(--fontitle);
+}
+.akoknight_name{
+font-size: 26px;
+color: var(--bordaux-velvet);
+line-height: 1;
+}
+.akoknight_relation{
+font-size: 10pt;
+color: var(--dull-amber);
+text-transform: uppercase;
+}
+.akoficha_relacion:hover{
+transform: scale(1.1);
+transition: transform 0.2s ease-in-out;
+}
+.akotsk_cronologia{
+padding: 20px 60px;
+text-transform: uppercase;
+counter-reset: cap;
+}
+.akotsk_cronologia_title{
+font-size: 33pt;
+font-family: var(--fontitle);
+color: var(--bordaux-velvet);
+text-align: center;
+padding: 0px 20px 20px 20px;
+}
+.akotsk_cronologia_chap{
+padding: 5px;
+text-align: left;
+counter-increment: cap;
+}
+.akotsk_cronologia_chaptitle{
+background-color: var(--dull-amber);
+color: white;
+padding: 7px;
+font-family: var(--fontitle);
+font-size: 14pt;
+}
+.akotsk_cronologia_chaptitle::before{
+content: counter(cap, upper-roman) ". ";
+}
+.akotsk_cronologia_chapdata{
+padding: 5px;
+font-family: var(--fontbody);
+font-size: 8pt;
+letter-spacing: 5px;
+color: var(--bordaux-velvet);
+text-transform: uppercase;
+}
+.akoficha_footer{
+padding: 20px 0px 50px 0px;
+}
+.akofooter-f_shield{
+position: relative;
+width: 100px;
+height: 100px;
+background-image: var(--house-icon);
+background-position: center;
+background-size: contain;
+background-repeat: no-repeat;
+z-index: 2;
+margin-bottom: 10px;
+}
+.akofooter-f_line{
+position: relative;
+margin-top: -75px;
+width: 700px;
+height: 33px;
+mix-blend-mode: multiply;
+z-index: 1;
+}
+.akocredits{
+font-family: 'Montserrat', sans-serif;
+font-size: 8pt;
+}
+.akocredits a{
+text-decoration: none;
+color: var(--dull-amber);
+}
