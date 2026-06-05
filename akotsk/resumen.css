@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Literata:wght@300;400;500&family=Manufacturing+Consent&family=MedievalSharp&display=swap');
+
+.akotsk_main{
+    width: 700px;
+    background-image: url("https://i.imgur.com/Kg4T2sc.png");
+    background-size: contain;
+}
+.akotsk_header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: center;
+    gap: 5px;
+    height: 400px;
+    mask-image: url("https://i.imgur.com/OYqNpAU.png");
+    background-size: cover;
+    mix-blend-mode: multiply;
+    z-index: -1;
+}
+.akotsk_dato{
+  font-family: var(--fontbody);
+  text-transform: uppercase;
+  font-size: 8pt;
+  color: var(--bordaux-velvet);
+  letter-spacing: 3px;
+  padding: 5px 10px;
+  border: solid 1px var(--bordaux-velvet);
+  margin-top: 15px;
+}
+.akotsk_title{
+    position: relative;
+    top: -150px;
+    align-items: center;
+    height: 350px;
+    padding: 0 50px 20px 50px;
+    justify-content: center;
+}
+.akotsk_title_shield{
+    width: 250px;
+    height: 250px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.akotsk_title_text{
+    padding: 25px;
+    font-family: "MedievalSharp", cursive;
+    font-size: 41pt;
+    color: var(--bordaux-velvet);
+    text-transform: uppercase;
+    line-height: 1;
+    text-align: center;
+}
+.akotsk_quote{
+    margin-top: -120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 100px 10px 100px;
+    color: var(--bordaux-velvet);
+}
+.akotsk_quote_hilt{
+    height: 100px;
+    width: 100px;
+    background-image: url(https://images2.imgbox.com/87/cc/qOfwtCo1_o.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.akotsk_quote_text{
+    padding: 20px;
+    border-top: 1px solid var(--bordaux-velvet);
+    border-bottom: 1px solid var(--bordaux-velvet);
+    font-family: var(--fontitle);
+    font-size: 10pt;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+}
+.akotsk_quote_blade{
+    height: 70px;
+    width: 70px;
+    background-image: url(https://images2.imgbox.com/5f/87/0xAnlBMy_o.png);
+    background-repeat: no-repeat;
+    background-size: contain; 
+}
+.akotsk_maintext{
+    font-family: var(--fontbody); color: var(--forest-most);
+    font-size: 10pt;
+    font-weight: 300;
+    text-align: justify;
+    padding: 20px 70px 50px 70px;
+}
+.akotsk_maintext::first-letter{
+    float: left;
+    padding: 33px;
+    margin-right: 20px;
+    font-size: 55pt;
+    font-family: var(--fontitle);
+    border: 1pt solid var(--dull-amber);
+}
+.akotsk_knights_separador{
+    margin: 0 auto;
+    width: 200px;
+    min-height: 70px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border-bottom: 1px solid var(--bordaux-velvet);
+}
+.akotsk_knights{
+    margin: 0 auto;
+    padding: 20px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.akotsk_knights_character{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+}
+.akotsk_knight_img{
+    width: 300px;
+    height: 300px;
+    mask-image: url("https://i.imgur.com/cXVnyvI.png"); mask-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    mix-blend-mode:multiply;
+    background-position: center;
+    z-index: 1;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+.akotsk_knights_character:hover .akotsk_knight_img{
+    opacity: 0.3;
+}
+.akotsk_house_icon{
+  margin-top: -125px;
+  width: 150px;
+  height: 150px;
+  background-image: var(--house-icon);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  transition: margin 0.3s ease-in-out;
+  z-index: 3;
+}
+
+
+.akotsk_knights_character:hover .akotsk_house_icon{
+    margin-top: -350px;
+}
+.akotsk_title_name{ 
+    margin-top: 20px; font-size: 21pt;
+    font-family: var(--fontitle);
+    color: var(--bordaux-velvet);
+    text-align: center;
+    position: relative;
+    transition: transform 0.5s ease-in-out;
+}
+.akotsk_knights_character:hover .akotsk_title_name {
+    top: 25px;
+}
+.akotsk_subtitle{
+    position: relative;
+    font-size: 9pt;
+    font-family: var(--fontitle);
+    color: var(--dull-amber);
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    transition: transform 0.5s ease-in-out;
+}
+.akotsk_knights_character:hover .akotsk_subtitle{
+    top: 30px;
+}
+.akotsk_knights_character_name {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  width: 300px;
+}
+.akotsk_character_datos {
+  display: none;
+  font-family: var(--fontbody);
+  font-size: 8pt;
+  letter-spacing: 3px;
+  color: var(--bordaux-velvet);
+  text-transform: uppercase;
+}
+.akotsk_knights_character:hover .akotsk_character_datos{
+  display: block;
+  position: relative;
+  top: 33px;
+}
+
+
+.akotsk_knight_blade{
+    margin: 0 auto;
+    border-top: 1px solid var(--bordaux-velvet);
+    height: 50px;
+    width: 200px;
+    background-image: url(https://images2.imgbox.com/5f/87/0xAnlBMy_o.png);
+    background-repeat: no-repeat;
+    background-size: contain; 
+    background-position: center;
+}
+.akotsk_cronologia{
+    padding: 20px 60px;
+    text-transform: uppercase;
+    counter-reset: cap;
+}
+.akotsk_cronologia_title{
+    font-size: 41pt;
+    font-family: var(--fontitle);
+    color: var(--bordaux-velvet);
+    text-align: center;
+    padding: 33px 20px 50px 20px;
+}
+.akotsk_cronologia_chap{
+    padding: 5px;
+    text-align: left;
+    counter-increment: cap;
+}
+.akotsk_cronologia_chaptitle{
+    background-color: var(--dull-amber);
+    color: white;
+    padding: 7px;
+    font-family: var(--fontitle);
+    font-size: 14pt;
+}
+.akotsk_cronologia_chaptitle::before{
+    content: counter(cap, upper-roman) ". ";
+}
+.akotsk_cronologia_chapdata{
+    padding: 5px;
+    font-family: var(--fontbody);
+    font-size: 7pt;
+    letter-spacing: 5px;
+    color: var(--bordaux-velvet);
+    text-transform: uppercase;
+}
+.akotsk_separador{
+    margin: 0 auto;
+    height: 50px;
+    background-image: url(https://images2.imgbox.com/ad/19/lyWtleMh_o.png);
+    background-repeat: no-repeat;
+    background-size: contain; 
+    background-position: center;
+}
+.akotsk_main_data{
+    padding: 20px;
+    font-family: var(--fontitle);
+    font-size: 7pt;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+    color: var(--bordaux-velvet)
+}
+.akocredits{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 8pt;
+}
+.akocredits a{
+    text-decoration: none;
+    color: var(--dull-amber);
+}
