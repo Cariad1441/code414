@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Literata:wght@300;400;500&family=Manufacturing+Consent&family=MedievalSharp&display=swap');
+.akopost_main{
+    width: 600px;
+    background-image: url(https://i.imgur.com/2avanFi.png);
+    background-size: cover;
+}
+.akopost_header{
+    height: 400px;
+    mask-image: url("https://i.imgur.com/OYqNpAU.png");
+    background-size: cover;
+    mix-blend-mode: multiply;
+}
+.akopost_knight{
+    position: relative;
+    margin-top: -200px;
+    width: 300px;
+    height: 300px;
+}
+.akopost_chborder{
+    width: 260px;
+    height: 260px;
+    background-image: url("https://images2.imgbox.com/8e/af/nCtXUfDA_o.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    z-index: 2;
+}
+.akopost_character{
+    position: relative;
+    top: -260px;
+    margin: 0 auto;
+    width: 260px;
+    height: 260px;
+    mask-image: url("https://i.imgur.com/5P6AgI2.png");
+    mask-repeat: no-repeat;
+    mask-position: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+}
+.akotsk_hilt{
+    height: 75px;
+    background-image: url(https://images2.imgbox.com/87/cc/qOfwtCo1_o.png);
+    border-bottom: 1px solid var(--bordaux-velvet); 
+}
+.akotsk_blade{
+    height: 50px;
+    background-image: url(https://images2.imgbox.com/5f/87/0xAnlBMy_o.png);
+    border-top: 1px solid var(--bordaux-velvet);
+}
+.akotsk_hilt,
+.akotsk_blade{
+    width: 250px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.akopost_title{
+    padding: 20px 50px;
+    font-family: var(--fontitle);
+    text-transform: uppercase;
+    text-align: center;
+}
+.akopost_title span{
+    font-size: 12pt;
+    color: var(--dusty-taupe);
+    letter-spacing: 3px;
+}
+.akopost_chaptitle{
+    font-size: 36pt;
+    color: var(--soil-maroon); line-height: 1;
+}
+.akopost_quote{
+    padding: 50px 100px;
+    font-family: var(--fontbody);
+    font-size: 7pt;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: var(--dusty-taupe);
+}
+.akopost_maintext{
+    font-family: var(--fontbody);
+    color: var(--soil-maroon);
+    font-size: 9pt;
+    font-weight: 300;
+    text-align: justify;
+    padding: 20px 75px;
+}
+.akopost_maintext::first-letter{
+    float: left;
+    padding: 33px;
+    margin-right: 20px;
+    font-size: 55pt;
+    font-family: var(--fontitle);
+    border: 1pt solid var(--dull-amber);
+    color: var(--soil-maroon);
+}
+.akopost_footer{
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+.akofooter_shield{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 65px;
+    margin-left: -400px;
+    z-index: 2;
+    background-image: var(--house-icon);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.akofooter_data{
+    padding: 10px 45px;
+    mix-blend-mode: multiply;
+    font-family: var(--fontitle);
+    font-size: 8pt;
+    text-align: right;
+    color: white;
+}
+.akotsk_separador{
+    margin: 0 auto;
+    padding: 20px;
+    height: 50px;
+    background-image: url(https://images2.imgbox.com/ad/19/lyWtleMh_o.png);
+    background-repeat: no-repeat;
+    background-size: contain; 
+    background-position: center;
+}
+.akocredits{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 8pt;
+}
+.akocredits a{
+    text-decoration: none;
+    color: var(--dull-amber);
+}
