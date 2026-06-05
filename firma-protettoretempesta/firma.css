@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Give+You+Glory&family=Miss+Fajardose&family=Zalando+Sans+SemiExpanded:ital,wght@0,200..900;1,200..900&display=swap');
+
+:root{
+  --creds_tempesta:#DFB13A;
+  --color_lines:#571e1b;
+  --color_text:#fff;
+  --font-tempesta:'Give You Glory';
+  --font-prottetore:'Miss Fajardose';
+  --font-base:'Zalando Sans SemiExpanded';
+}
+
+.resalte-tempesta {
+  font-family: var(--font-tempesta);
+  font-size: 25px;
+}
+
+.resalte-prottetore{
+  font-family: var(--font-prottetore);
+  font-size: 40px;
+}
+
+.temps_credits{
+    color: var(--creds_tempesta);
+    font-family: 'Zalando Sans SemiExpanded';
+  }
+  
+ .temps_credits_text {
+    font-size: 7pt;
+    text-transform: uppercase;
+  }
+
+.temps_credits_text a {
+  color: var(--creds_tempesta);
+  text-decoration: none;
+}
+
+.temps_sign{
+  width: 250px;
+  height: auto; 
+  font-family: var(--font-base);
+}
+
+.temps_sup {
+  text-align: right;
+}
+
+.temps_inf {
+  text-align: left;
+}
+
+.temps_sup, .temps_inf {
+  font-size: 12px;
+  letter-spacing: 3px;
+}
+
+.temps_sup_text{
+  padding-left: 50px; 
+  line-height: 10px;
+} 
+
+.temps_inf_text{
+  padding-right: 25px; 
+  padding-left: 3px;
+  line-height: 25px;
+}
+
+.temps_sup_text, .temps_inf_text{
+  color: var(--color_text); 
+  background: var(--color_lines);
+}
+
+.temps_img{
+  width: 250px;
+  height: 150px;
+  margin-top: 5px;
+}
