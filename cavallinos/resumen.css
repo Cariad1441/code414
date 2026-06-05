@@ -1,0 +1,261 @@
+.rosso_main{
+    position: relative;
+    width: 500px;
+    height: auto;
+}
+.rosso_main a{
+    text-decoration: none;
+}
+.rhead_intro{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+.rhead_icon{
+    width: 50px;
+    text-align: center;
+    line-height: 45px;
+}
+rhead_icon > i{
+vertical-align: middle;
+}
+.rhead_icon svg{
+    margin: 12px;
+}
+.rhead_text{
+    color: #E3E2E2;
+    font-size: 9px;
+    text-transform: uppercase;
+    padding: 15px 20px;
+}
+.rheader_img{
+    width: 500px;
+    height: 250px;
+    background-size: fill;
+}
+.rtitle_intro{
+    margin-top: -50px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.intro_tag{
+    width: 125px;
+    color: #E3E2E2;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 9px;
+    border: #E3E2E2 1px solid;
+}
+.rtitle_main{
+    margin-top: 15px;
+    font-size: 72px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 0.8;
+}
+.rtitle_tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+    padding: 5px 25px;
+    width: 450px;
+}
+.tropo_tag {
+    flex-grow: 1;
+    color: #E3E2E2;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-right: 5px;
+    font-size: 9px;
+}
+.tropo_icon {
+    font-weight: bold;
+    font-size: 12px;
+    color: #E3E2E2;
+    padding:0px 6px;
+}
+.rosso_description{
+    width: 410px;
+    height: 250px;
+    background-color: #000000;
+    margin: 10px auto;
+    padding: 20px;
+    font-size: 10pt;
+    color:#E3E2E2;
+    line-height: 1.3;
+    text-align: justify;
+    overflow-y: scroll;
+}
+.rosso_description::-webkit-scrollbar {
+    width: 10px;
+    background-color: #100F0F;
+}
+.rosso_description::-webkit-scrollbar-thumb {
+    width: 5px;
+    border: #100F0F 3px solid;
+    border-radius: 1px;
+}
+.rosso_description::-webkit-scrollbar-track {
+    background: #000000;
+}
+.rosso_characters{
+    padding: 20px;
+    margin-bottom: -30px;
+    
+}
+.ch1_name{
+    margin-bottom: -70px;
+    padding: 0px 20px;
+    position: relative;
+    text-align: end;
+    color:#E3E2E2;
+    font-size: 32px;
+    text-transform: uppercase;
+    z-index: 1;
+}
+.ch1_info{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 450px;
+    margin: 20px auto;
+    align-items: end;
+    gap: 5px;
+}
+.ch1_img{
+    width: 250px;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: multiply;
+    margin: 15px 0px 15px 0px;
+}
+.ch1_data {
+    display: flex;
+    flex-grow: 2;
+    flex-direction: column;
+    gap: 2px;
+    margin: 15px 0px 15px 0px;
+}
+.data_tag {
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-right: 5px;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+.data_icon {
+    width: 16px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    padding:5px;
+}
+.ch2_name{
+    position: relative;
+    margin-bottom: -70px;
+    text-align: start;
+    color:#E3E2E2;
+    font-size: 32px;
+    text-transform: uppercase;
+    z-index: 1;
+}
+.ch2_info{
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 450px;
+    padding: 20px 0px;
+    align-items: end;
+    gap: 5px;
+}
+.ch2_img{
+    width: 250px;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: multiply;
+    margin: 15px 0px 15px 0px;
+}
+.ch2_data {
+    display: flex;
+    flex-grow: 2;
+    flex-direction: column;
+    gap: 2px;
+    margin: 15px 0px 15px 0px;
+}
+.rosso_crono{
+    margin: 10px auto;
+    color:#E3E2E2;
+}
+.rcrono_title{
+    padding: 10px 0px 20px 0px;
+    text-align: center;
+    color:#E3E2E2;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+.rcrono_list{
+    height: 200px;
+    margin: 0px 20px;
+    text-transform: uppercase;
+    font-size: 10px;
+    overflow-y: scroll;
+}
+.rcrono_chap{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    gap: 5px;
+    padding-right: 5px;
+    text-transform: uppercase;
+}
+.rcrono_no{
+    width: 90px;
+    font-weight: bold;
+    padding: 3px 5px;
+}
+.rcrono_chap a{
+    color: #E3E2E2;
+}
+.rcrono_list::-webkit-scrollbar {
+    width: 7px;
+    background-color: #100F0F;
+}
+.rcrono_list::-webkit-scrollbar-thumb {
+    border-radius: 1px;
+}
+.rcrono_list::-webkit-scrollbar-track {
+    border-radius: 0px;
+    background: #00000000; 
+}
+.rosso_credits {
+    font-family: "Montserrat";
+    color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 5px;
+    font-size: 8px;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+.credit_icon {
+    font-weight: bold;
+    font-size: 14px;
+    padding:10px;
+    text-align: center;
+}
+.credit_text{
+    text-align: left;
+}
