@@ -65,11 +65,13 @@
 .akopost_title span{
     font-size: 12pt;
     color: var(--dusty-taupe);
-    letter-spacing: 3px;
+    letter-spacing: 15px;
 }
 .akopost_chaptitle{
-    font-size: 36pt;
-    color: var(--soil-maroon); line-height: 1;
+    margin-top: 10px;
+    font-size: 26pt;
+    color: var(--soil-maroon);
+    line-height: 1;
 }
 .akopost_quote{
     padding: 50px 100px;
@@ -118,6 +120,7 @@
     font-family: var(--fontitle);
     font-size: 8pt;
     text-align: right;
+    text-transform: uppercase;
     color: white;
 }
 .akotsk_separador{
