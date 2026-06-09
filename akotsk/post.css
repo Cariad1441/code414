@@ -63,7 +63,7 @@
     text-align: center;
 }
 .akopost_title span{
-    font-size: 12pt;
+    font-size: 8pt;
     color: var(--dusty-taupe);
     letter-spacing: 15px;
 }
@@ -84,7 +84,7 @@
 .akopost_maintext{
     font-family: var(--fontbody);
     color: var(--soil-maroon);
-    font-size: 9pt;
+    font-size: 10pt;
     font-weight: 300;
     text-align: justify;
     padding: 20px 75px;
