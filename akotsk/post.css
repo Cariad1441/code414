@@ -19,7 +19,7 @@
 .akopost_chborder{
     width: 260px;
     height: 260px;
-    background-image: url("https://images2.imgbox.com/8e/af/nCtXUfDA_o.png");
+    background-image: url("https://i.imgur.com/BbhjARU.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -41,12 +41,12 @@
 }
 .akotsk_hilt{
     height: 75px;
-    background-image: url(https://images2.imgbox.com/87/cc/qOfwtCo1_o.png);
+    background-image: url(https://i.imgur.com/c1kyibe.png);
     border-bottom: 1px solid var(--bordaux-velvet); 
 }
 .akotsk_blade{
     height: 50px;
-    background-image: url(https://images2.imgbox.com/5f/87/0xAnlBMy_o.png);
+    background-image: url(https://i.imgur.com/ABYU3uU.png);
     border-top: 1px solid var(--bordaux-velvet);
 }
 .akotsk_hilt,
@@ -127,7 +127,7 @@
     margin: 0 auto;
     padding: 20px;
     height: 50px;
-    background-image: url(https://images2.imgbox.com/ad/19/lyWtleMh_o.png);
+    background-image: url(https://i.imgur.com/9tXJ2Fv.png);
     background-repeat: no-repeat;
     background-size: contain; 
     background-position: center;
