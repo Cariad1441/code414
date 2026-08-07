@@ -5,21 +5,21 @@ text-decoration: none;
 }
 .akoficha_main{
 width: 700px;
-background-image: url("https://images2.imgbox.com/cf/f8/69p6zwBR_o.png");
+background-image: url("https://i.imgur.com/wazPGTd.png");
 background-size: cover;
 }
 .akotsk_separador{
 margin: 33px;
 padding: 20px;
 height: 1px;
-background-image: url("https://images2.imgbox.com/ad/19/lyWtleMh_o.png");
+background-image: url("https://i.imgur.com/9tXJ2Fv.pngg");
 background-repeat: no-repeat;
 background-size: contain; 
 background-position: center;
 }
 .akochar_intro{
 height: 1180px;
-background-image: url("https://images2.imgbox.com/6e/b3/eDjtnxRw_o.png");
+background-image: url("https://i.imgur.com/9RDJVBn.png");
 }
 .akochar_name{
 display: flex;
@@ -106,7 +106,7 @@ background: #f9f9f900;
 .akoficha_separador-knight{
 height: 80px;
 width: 300px;
-background-image: url("https://images2.imgbox.com/cc/70/hzWPrBHO_o.png");
+background-image: url("https://i.imgur.com/JlWyLWH.png");
 background-repeat: no-repeat;
 background-size: contain;
 background-position: center;
@@ -139,7 +139,7 @@ color: var(--bordaux-velvet);
 .akoficha_separador-blade{
 height: 40px;
 width: 300px;
-background-image: url("https://images2.imgbox.com/5f/87/0xAnlBMy_o.png");
+background-image: url("https://i.imgur.com/ABYU3uU.png");
 background-repeat: no-repeat;
 background-size: contain;
 background-position: center;
@@ -163,7 +163,7 @@ width: 180px;
 position: relative;
 width: 180px;
 height: 200px;
-background-image: url("https://images2.imgbox.com/8e/af/nCtXUfDA_o.png");
+background-image: url("https://i.imgur.com/BbhjARU.png");
 background-repeat: no-repeat;
 background-size: contain;
 background-position: center;
