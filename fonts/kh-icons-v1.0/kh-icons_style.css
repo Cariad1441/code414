@@ -1,0 +1,75 @@
+@font-face {
+  font-family: 'kh-icons';
+  src:  url('fonts/kh-icons.eot?uxsa5p');
+  src:  url('fonts/kh-icons.eot?uxsa5p#iefix') format('embedded-opentype'),
+    url('fonts/kh-icons.ttf?uxsa5p') format('truetype'),
+    url('fonts/kh-icons.woff?uxsa5p') format('woff'),
+    url('fonts/kh-icons.svg?uxsa5p#kh-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.kh {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'kh-icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.kh-bbs:before {
+  content: "\e900";
+}
+.kh-dream-eaters:before {
+  content: "\e901";
+}
+.kh-heart:before {
+  content: "\e902";
+}
+.kh-heartless:before {
+  content: "\e903";
+}
+.kh-keyblade:before {
+  content: "\e904";
+}
+.kh-keyhole:before {
+  content: "\e905";
+}
+.kh-lucky-charm:before {
+  content: "\e906";
+}
+.kh-mickey:before {
+  content: "\e907";
+}
+.kh-nightmares:before {
+  content: "\e908";
+}
+.kh-nobody:before {
+  content: "\e909";
+}
+.kh-roxas:before {
+  content: "\e90a";
+}
+.kh-sora:before {
+  content: "\e90b";
+}
+.kh-twewy:before {
+  content: "\e90c";
+}
+.kh-unversed:before {
+  content: "\e90d";
+}
+.kh-vanitas:before {
+  content: "\e90e";
+}
+.kh-x:before {
+  content: "\e90f";
+}
