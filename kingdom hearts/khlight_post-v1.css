@@ -162,7 +162,7 @@
     color: var(--darkgray);
     background-color: white;
 }
-.khlight-main b{
+.khlight-main strong, .khlight-main b{
   color: var(--lightblue);
 }
 .khlightcredits{
