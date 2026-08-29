@@ -32,7 +32,7 @@
     background-clip: text;
     color: transparent;
     -webkit-text-fill-color: transparent;
-    font-family: var(--kingdom-title);
+    font-family: 'Kingdom Hearts';
     font-size: 72pt;
     text-align: center;
     padding: 270px 150px 30px 150px;
@@ -44,7 +44,7 @@
     position: absolute;
     inset: 0;
     color: transparent;
-    font-family: var(--kingdom-title);
+    font-family: 'Kingdom Hearts';
     font-size: 72pt;
     text-align: center;
     padding: 270px 150px 30px 150px;
@@ -101,12 +101,18 @@
     background-color: white;
 }
 .khlight-dato-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 12pt;
     color: var(--darkgray);
     border-right: 1px solid var(--lightgray);
     padding: 5px;
 }
 .khlight-dato span{
+    text-align: left;
+    line-height: 1;
+    align-self: center;
     padding: 5px;
 }
 .khlight_maintext{
