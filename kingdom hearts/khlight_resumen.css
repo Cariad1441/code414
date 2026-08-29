@@ -26,6 +26,7 @@
   letter-spacing: 1;
 }
 .khlight-header{
+    height: 400px;
     position: relative;
     background-image: url(https://i.imgur.com/jNIftz2.png);
     background-size: contain;
