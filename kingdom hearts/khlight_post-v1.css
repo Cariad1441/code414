@@ -91,7 +91,7 @@
 .khlight-title-number{
     position: absolute;
     align-self: center;
-    font-family: 'Kingdom Hearts';
+    font-family: var(--kingdom-title);
     font-size: 150pt;
     text-align: center;
     letter-spacing: 10px;
