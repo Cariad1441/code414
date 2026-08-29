@@ -15,6 +15,16 @@
     background-image: url(https://i.imgur.com/sQcGgrM.png);
     background-repeat: repeat-y;
 }
+.khlight-main a{
+  text-decoration: none;
+  color: var(--darkgray);
+  transition: letter-spacing .2s
+}
+.khlight-main a:hover{
+  transform: scale(1.5);
+  color: var(--lightblue);
+  letter-spacing: 1;
+}
 .khlight-header{
     position: relative;
     background-image: url(https://i.imgur.com/jNIftz2.png);
