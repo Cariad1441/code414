@@ -45,7 +45,8 @@
     font-family: 'Kingdom Hearts';
     font-size: 72pt;
     text-align: center;
-    padding: 270px 150px 30px 150px;
+    margin-top: -200px;
+    padding: 20px 150px;
     line-height: 0.7;
     letter-spacing: -3px;
     z-index: 1;
