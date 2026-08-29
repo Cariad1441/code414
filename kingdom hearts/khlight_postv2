@@ -1,0 +1,208 @@
+@font-face {
+     font-family: 'kh';
+     src: url(https://cariad1441.github.io/code414/fonts/kh-icons-v1.0/fonts/kh-icons.ttf);
+     }
+@font-face {
+    font-family: 'Kingdom Hearts';
+    src: url(https://cariad1441.github.io/code414/fonts/kingdom_hearts/Kingdom_Hearts_Font.ttf);
+}
+.khlight-main{
+    position: relative;
+    width: 600px;
+    border: 1px solid var(--lightgray);
+    outline: 1px solid var(--lightgray);
+    outline-offset: 3px;
+    background-image: url(https://i.imgur.com/sQcGgrM.png);
+    background-repeat: repeat-y;
+}
+.khlight-header-place{
+    position: relative;
+    height: 250px;
+    background-image: url(https://i.imgur.com/jNIftz2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+.khlight-info-post{
+  display: flex;
+  justify-content: space-between;
+}
+.khlight-pj-portrait{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin-top: -145px;
+    margin-left: 50px;
+}
+.khlight-pj-portrait i{
+    font-size: 32pt;
+    color: var(--yellow);
+    z-index: 2;
+}
+.khlight-pj-img{
+    width: 120px;
+    height: 120px;
+    border: 1px solid var(--lightgray);
+    outline: 1px solid var(--lightgray);
+    outline-offset: 3px;
+    margin-top: 40px;
+    transform: rotate(45deg);
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+}
+.khlight-pj-img img{
+    width: 141.42%;
+    height: 141.42%;
+    position: absolute;
+    top: -20.71%;
+    left: -20.71%;
+    object-fit: cover;
+    transform: rotate(-45deg);
+}
+.khlight-postitle{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Arizonia';
+  font-size: 50pt;
+  text-align: center;
+  line-height: 0.8;
+  padding: 1.5em 1em 1em 1em;
+}
+.khlight-postitle-text {
+    position: relative;
+    margin-top: -50px;
+}
+
+/* Trazado gris detrás. IMPORTANTE: hay que poner el texto en "content" por lo que esa parte debe ir sí o sí al style configurable */
+.khlight-postitle-text::before {
+    position: absolute;
+    inset: 0;
+    font: inherit;
+    line-height: inherit;
+    text-align: inherit;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px var(--lightgray);
+    transform: translate(2px, 2px);
+    opacity: 0.75;
+    pointer-events: none;
+    z-index: 0;
+}
+/* Texto azul delante */
+.khlight-postitle-text > span {
+    position: relative;
+    z-index: 1;
+    background: linear-gradient(
+        var(--darkblue),
+        var(--lightblue)
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+.khlight-title-number{
+    position: absolute;
+    align-self: center;
+    margin-bottom: 30px;
+    font-family: 'Kingdom Hearts';
+    font-size: 150pt;
+    text-align: center;
+    letter-spacing: 10px;
+    color: transparent !important;
+    -webkit-text-stroke: 0.5px var(--lightgray);
+}
+.khlight-separador{
+    margin: 25px 150px;
+}
+.khlight-post-quote p{
+    padding: 0 150px;
+    font-family: 'Jura', sans-serif;
+    font-size: 9pt;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--darkgray);
+}
+.khlight-separador{
+    display: flex;
+    gap: 50px;
+}
+.khlight-separador hr{
+    height: 0;
+    flex-grow: 1;
+    background-color: var(--lightgray);
+}
+.khlight-separador i{
+    font-size: 12pt;
+    color: var(--darkgray);
+}
+.khlight-quote p{
+    margin: 25px 0;
+    color: var(--darkgray);
+}
+.khlight-datos{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    gap: 5px;
+    justify-content: space-between;
+    padding: 10px 55px 20px 55px;
+}
+.khlight-dato{
+    display: flex;
+    flex-grow: 1;
+    border: 1px solid var(--lightgray);
+    color: var(--darkgray);
+    font-family: 'Jura', sans-serif;
+    font-size: 8pt;
+    text-transform: uppercase;
+    background-color: white;
+}
+.khlight-dato-icon{
+    font-size: 12pt;
+    color: var(--darkgray);
+    border-right: 1px solid var(--lightgray);
+    padding: 3px;
+}
+.khlight-dato span{
+    padding: 3px;
+}
+.khlight_maintext{
+    padding: 20px;
+    margin: 20px 55px 0px 55px;
+    border: 1px solid var(--lightgray);
+    font-family: 'Baloo Tamma 2', sans-serif;
+    font-size: 10pt;
+    line-height: 1.3;
+    text-align: justify;
+    color: var(--darkgray);
+    background-color: white;
+}
+.khlight-decoration-down{
+  position: relative;
+  height: 320px;
+  background-image: url(https://i.imgur.com/iT6Ylad.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 10px;
+}
+.khlight-decoration-down i{
+    font-size: 21pt;
+    color: var(--yellow);
+    z-index: 2;
+}
+.khlightcredits{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 8pt;
+    text-align: center;
+    color: var(--lightgray);
+    padding: 10px;
+}
+.khlightcredits a{
+    text-decoration: none;
+    color: var(--lightblue);
+}
