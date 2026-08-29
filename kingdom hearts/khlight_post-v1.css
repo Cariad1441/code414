@@ -162,6 +162,9 @@
     color: var(--darkgray);
     background-color: white;
 }
+.khlight-main b{
+  color: var(--lightblue);
+}
 .khlightcredits{
     font-family: 'Montserrat', sans-serif;
     font-size: 8pt;
