@@ -32,7 +32,7 @@
     background-clip: text;
     color: transparent;
     -webkit-text-fill-color: transparent;
-    font-family: 'Kingdom Hearts';
+    font-family: var(--kingdom-title);
     font-size: 72pt;
     text-align: center;
     padding: 270px 150px 30px 150px;
@@ -44,7 +44,7 @@
     position: absolute;
     inset: 0;
     color: transparent;
-    font-family: 'Kingdom Hearts';
+    font-family: var(--kingdom-title);
     font-size: 72pt;
     text-align: center;
     padding: 270px 150px 30px 150px;
