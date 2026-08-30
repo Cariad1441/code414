@@ -15,6 +15,9 @@
     background-image: url(https://i.imgur.com/sQcGgrM.png);
     background-repeat: repeat-y;
 }
+.khlight2-main b{
+  color: var(--lightblue);
+}
 .khlight2-header-place{
     position: relative;
     height: 250px;
