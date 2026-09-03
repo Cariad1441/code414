@@ -19,7 +19,7 @@
 .khlight-main b{
   color: var(--lightpurple);
 }
-.khdark-header{
+.khdark-postheader{
     position: relative;
     height: 320px;
     background-image: url(https://i.imgur.com/TL09tuQ.png);
