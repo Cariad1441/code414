@@ -16,6 +16,9 @@
     background-repeat: repeat-y;
     padding-bottom: 20px;
 }
+.khlight-main b{
+  color: var(--lightpurple);
+}
 .khdark-header{
     position: relative;
     height: 320px;
