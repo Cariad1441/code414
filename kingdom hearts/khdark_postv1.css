@@ -16,7 +16,7 @@
     background-repeat: repeat-y;
     padding-bottom: 20px;
 }
-.khlight-main b{
+.khdark-main b, .khdark-main strong{
   color: var(--lightpurple);
 }
 .khdark-postheader{
