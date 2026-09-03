@@ -33,9 +33,9 @@
   z-index: 2;
 }
 .khdark-postchara-img{
-    width: 150px;
-    height: 150px;
-    margin-top: -63px;
+    width: 160px;
+    height: 160px;
+    margin-top: -96px;
     border-radius: 50%;
     border: 1px solid var(--lightgrey);
     outline: 1px solid var(--lightgrey);
