@@ -116,7 +116,7 @@
     text-align: center;
     letter-spacing: 10px;
     color: transparent !important;
-    -webkit-text-stroke: 1px var(--darkgrey);
+    -webkit-text-stroke: 1px var(--lightgrey);
 }
 .khdark-separador{
     margin: 25px 150px;
