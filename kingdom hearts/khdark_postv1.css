@@ -124,7 +124,7 @@
 }
 .khdark-quote p{
     margin: 25px 0;
-    color: var(--darkgrey);
+    color: var(--lightkgrey);
 }
 .khdark-datos{
     display: flex;
