@@ -15,7 +15,7 @@
     background-image: url(https://i.imgur.com/BEwgACM.png);
     background-repeat: repeat-y;
 }
-.khlight2-main b, .khlight2-main strong{
+.khdark-main b, .khdark-main strong{
   color: var(--lightpurple);
 }
 .khdark-header-place{
