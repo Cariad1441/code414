@@ -23,12 +23,12 @@
 }
 .akocrono_hilt{
     height: 100px;
-    background-image: url(https://images2.imgbox.com/87/cc/qOfwtCo1_o.png);
+    background-image: url(https://i.imgur.com/c1kyibe.png);
     border-bottom: solid 1px var(--bordaux-velvet);
 }
 .akocrono_blade{
     height: 50px;
-    background-image: url(https://images2.imgbox.com/5f/87/0xAnlBMy_o.png);
+    background-image: url(https://i.imgur.com/ABYU3uU.png);
     border-top: solid 1px var(--bordaux-velvet);
 }
 .akocrono_hilt,
@@ -130,7 +130,7 @@
 .akotsk_separador{
     padding: 50px;
     height: 50px;
-    background-image: url(https://images2.imgbox.com/ad/19/lyWtleMh_o.png);
+    background-image: url(https://i.imgur.com/9tXJ2Fv.png);
     background-repeat: no-repeat;
     background-size: contain; 
     background-position: center;
